@@ -16,7 +16,7 @@ En este repositorio estara la documentacion de lo del roadmap de un Backend Deve
 - Escalado de las bases de datos
 - Patrones arquitectónicos
 - Principios de diseño y desarrollo
-- Contenerización vs. Virtualización
+- Contenerización vs Virtualización
 - Brokers de mensajes
 - Motores de busqueda
 - Servidores web

@@ -30,6 +30,28 @@ public class Main {
       System.out.println("Mi booleano es " + miBooleano);
 
 
+      // Este es un ejemplo de imprimier variables con el metodo println()
+      String firstName = "Andres";
+      String lastName = "Cortes";
+      System.out.println("Bienvenido " + firstName + " " + lastName);
+
+      // Ejemplo del operador ' + ' como suma
+      int number1 = 5;
+      int number2 = 3;
+      System.out.println(number1 + number2);
+
+
+      // Declarar multiples variables del mismo tipo de dato
+      int num1 = 1, num2 = 2, num3 = 3;
+      System.out.println(num1 + num2 + num3);
+
+
+      // Declarar multiples variables con el mismo valor
+      int x, y, z;
+      x = y = z = 50;
+      System.out.println(x + y + z);
+
+
       
     }
   }

@@ -52,6 +52,29 @@ public class Main {
       System.out.println(x + y + z);
 
 
+
+      // Variables Java - Ejemplos
+      // Almacenamiento de datos de un estudiante universitario
+      String studentName = "John Doe";
+      int studentID = 15;
+      int studentAge = 23;
+      float studentFee = 75.25f;
+      char studentGrade = 'B';
+
+      System.out.println("Student name: " + studentName);
+      System.out.println("Student ID: " + studentID);
+      System.out.println("Student age: " + studentAge);
+      System.out.println("Student fee: " + studentFee);
+      System.out.println("Student grade: " + studentGrade);
+
+      // Calculo del area de un rectangulo
+      int length = 4;
+      int width = 6;
+      int area;
+
+      area = length * width;
+      System.out.println("Area of the rectangle: " + area);
+
       
     }
   }

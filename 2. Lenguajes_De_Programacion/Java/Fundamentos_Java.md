@@ -64,8 +64,35 @@
 - A su vez podemos asignar un mismo valor a multiples variables
 
 ## Identificadores de Java
-- 
+- Todas las variables deben de tenr un nombre unico, a estos nombres se le pueden llamar identificadores; los identificadores pueden ser nombres cortos o nombres mas descriptivos
+  - EJEMPLO -> int minutesPerHour = 60;
+- Las reglas generales para nombrar variables son:
+  - Los nombres pueden contener letras, digitos, guiones bajos y signos de dolar
+  - Los nombres deben comenzar con una letra
+  - Los nombres deben comenzar con una letra minuscula y no pueden contener espacios en blanco
+  - Los nombres tambien pueden comenzar con $ y _ 
+  - Los nombres distinguen entre mayusculas y minusculas ("myVar" y "MyVar" son variables diferentes)
+  - Las palabras reservadas no se pueden usar como nombres
 
+## Variables Java - Ejemplos
+- Se crean dos ejemplos en el archivo 'Main.java' dentro de la carpeta de 'Java'; uno corresponde a un almacenamiento de datos de un estudiante universitario y el otro es el calculo del area de un rectangulo; los ejemplos estan bajo el comentario de 'Variables Java - Ejemplos'
+
+# Tipos de datos de Java
+## Tipos de datos
+- Los tipos de datos en Java se dividen en dos grupos
+  - Tipos de datos primitivos: 
+    - byte -> tiene 1 byte de tamaño y almacena numeros entre -128 y 127
+    - short -> tiene 2 bytes de tamaño y almacena numeros entre -32,768 y 32,767
+    - int -> tiene 4 bytes de tamaño y almacena numeros entre -2,147,483,648 y 2,147,483,647
+    - long -> tiene 8 bytes de tamaño y almacena numeros entre -9,223,372,036,854,775,808 y 9,223,372,036,854,775,807
+    - float -> tiene 4 bytes de tamaño y almacena numeros decimales (entre 6 y 7 digitos despues de la coma)
+    - double -> tiene 8 bytes de tamaño y almacena numeros decimales (15 digitos despues de la coma)
+    - boolean -> tiene 1 byte de tamaño y almacena true o false
+    - char -> tiene 2 bytes de tamaño y almacena un letra
+  - Tipos de datos no primitivos: matrices y clases
+
+## Numeros
+- 
 
 
 

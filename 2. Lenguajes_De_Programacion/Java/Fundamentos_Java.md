@@ -82,7 +82,7 @@
 - Los tipos de datos en Java se dividen en dos grupos
   - Tipos de datos primitivos: 
     - byte -> tiene 1 byte de tamaño y almacena numeros entre -128 y 127
-    - short -> tiene 2 bytes de tamaño y almacena numeros entre -32,768 y 32,767
+    - short -> tiene 2 bytes de tamaño y almacena numeros entre -32768 y 32767
     - int -> tiene 4 bytes de tamaño y almacena numeros entre -2,147,483,648 y 2,147,483,647
     - long -> tiene 8 bytes de tamaño y almacena numeros entre -9,223,372,036,854,775,808 y 9,223,372,036,854,775,807
     - float -> tiene 4 bytes de tamaño y almacena numeros decimales (entre 6 y 7 digitos despues de la coma)
@@ -92,7 +92,36 @@
   - Tipos de datos no primitivos: matrices y clases
 
 ## Numeros
-- 
+- Dentro de los tipos de numeros primitivos en Java hay dos grupos:
+  - Los tipos enteros: 
+    - byte: puede almacenar numeros enteros entre -128 y 127
+    - short: puede almacenar numeros enteros entre -32768 y 32767
+    - int: puede almacenar numeros enteros entre -2147483648 y 2147483647
+    - long: puede almacenar numero enteros entre -9223372036854775808 y 9223372036854775807
+  - Los tipos de punto flotante: 
+    - float: almacena numeros decimales (fraccionarios)
+    - double: almacena numero decimales (fraccionarios)
+
+## Booleanos (boolean)
+- En programacion es muy amenudo un tipo de dato que tenga uno de dos valores, como: SI / NO, ENCENDIDO / APAGADO, VERDADERO / FALSE (TRUE / FALSE); para ello se un el booleano
+- Se escribe 'boolean' para asignar el tipo de variable, luego el nombre de dicha variable y los valoresa asignar pueden ser 'True' o 'False'
+
+## Caracteres
+- El tipo de dato 'char' es usado para asignar una variable en donde el valor es una sola letra (caracter)
+
+## Cadenas de caracteres (strings)
+- El tipo de dato 'String' almacena cadenas de caracteres(texto)
+
+## Tipos no primitivos
+- Dentro de los tipos no primitivos, son aquellos que se crean como los arrays, las clases, las interfaces, etc.
+
+# Conversion de tipos en Java
+- En Java hay dos tipos de conversion de datos(casting), los cuales son:
+ - Widening Casting: Este tipo convierte un tipo mas pequeño de dato a un tipo de tamaño mas grande, la secuencia de este tipo es: byte -> short -> char -> int -> long -> float -> double (este pasa de forma automatica)
+ - Narrowing Casting: Este tipo convierte un tipo de mayor tamaño a uno de menor tamaño, la secuencia de este tipo es: double -> float -> long -> int -> char -> short -> byte (este pasa de forma manual)
+
+# Operadores de Java
+
 
 
 
@@ -103,3 +132,9 @@
 > - Cada declaracion de codigo se debe de terminar con un punto y coma (;)
 > - Hay que tener en cuenta que si se le asigna un nuevo valor a alguna variable, sobreescribira el valor de dicha variable, si no queremos que esto pase se le agrega la palabra 'final' al inicio de toda la secuencia de declaracion de variables ' final int myNum = 15; '
 > - El signo y/o operador del mas ( + ) sirve tanto para concatenar variables, strings, numeros, como tambien funcion matematica de sumar numeros
+> - Cuando usemos el tipo de dato numerico entero 'long' debemos agregar una L al numero de valor de esa variable
+> - Cuando usemos el tipo de datos flotante ya sea 'float' o 'double' debemos agregar la letra en cuestion al final del valor numerico para determinar que el numero es fraccionario, para float se agrega una 'f' y para double es una 'd'
+> - Cuando se use el tipo de dato 'char' el caracter como valor de la variable, debe de estar entre comillas simples
+> - Cuando se use el tipo de dato 'string' el valor debe estar entre comillas dobles
+> - Los tipos de datos no primitivos suelen inciar con mayuscula, ademas que pueden tener como valor 'null'
+> - Cuando estemos haciendo un 'Narrowing Casting' debemos de escribir el tipo de dato por el cual estamos haciendo la conversion

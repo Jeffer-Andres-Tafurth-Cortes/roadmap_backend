@@ -1,4 +1,4 @@
-// Toda aplicacion de llava comienza con 'public class'
+// Toda aplicacion de Java comienza con 'public class'
 
 // El siguiente programa solo retorna en la terminal 'Hello World!'
 public class Main {
@@ -75,6 +75,75 @@ public class Main {
       area = length * width;
       System.out.println("Area of the rectangle: " + area);
 
+
+      // Tipos de numeros en Java
+      // byte
+      byte byteNum = 100;
+      System.out.println(byteNum);
+      
+      // short
+      short shortNum = 5000;
+      System.out.println(shortNum);
+
+      // int
+      int intNum = 1234567;
+      System.err.println(intNum);
+
+      // long
+      long longNum = 987654321L;
+      System.out.println(longNum);
+
+      // float
+      float floatNum = 3.14f;
+      System.out.println(floatNum);
+      
+      // double
+      double doubleNum = 2.71828d;
+      System.out.println(doubleNum);
+
+      // Tipo de dato booleano (boolean)
+      boolean isJavaFun = true;
+      boolean isFishTasty = false;
+      System.out.println(isJavaFun);
+      System.out.println(isFishTasty);
+
+      // Tipo de dato char
+      char charVariable = 'A';
+      System.out.println(charVariable);
+
+      // Tipo de dato string
+      String greetings = "Hola Mundo!";
+      System.out.println(greetings);
+
+
+      // EJEMPLOS CON TIPOS DE DATOS
+      // Calcular y generar el costo de varios articulos
+      int items = 50;
+      float costPerItem = 9.99f;
+      float totalCost = items * costPerItem;
+      char currrency = '$';
+      
+      System.out.println("Total de costo :" + currrency + totalCost);
+
+
+      // CONVERSION DE TIPOS (CASTING)
+      // Widening Casting
+      int myInt = 9;
+      double myDouble = myInt;
+      System.out.println(myInt); // 9
+      System.out.println(myDouble); // 0.9
+
+      // Narrowing Casting
+      double yourDouble = 9.78d;
+      int yourInt = (int) yourDouble;
+      System.out.println(yourDouble); // 9.78
+      System.out.println(yourInt); // 9
+
+      // Ejemplo con la Conversion de tipos
+      int maxScore = 500;
+      int userScore = 423;
+      float percent = (float) userScore / maxScore * 100.0f;
+      System.out.println("Tu puntaje es: " + percent + "%"); 
       
     }
   }

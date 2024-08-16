@@ -121,6 +121,10 @@
  - Narrowing Casting: Este tipo convierte un tipo de mayor tamaño a uno de menor tamaño, la secuencia de este tipo es: double -> float -> long -> int -> char -> short -> byte (este pasa de forma manual)
 
 # Operadores de Java
+- Los operadores en Java se usan para realizar operaciones sobre variables y valores
+
+## Operador de suma
+- El operador se suma se usa para sumar dos valores ( int x = 10 + 10 )
 
 
 

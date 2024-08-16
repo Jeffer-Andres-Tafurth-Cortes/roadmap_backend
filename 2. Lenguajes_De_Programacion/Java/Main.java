@@ -143,7 +143,13 @@ public class Main {
       int maxScore = 500;
       int userScore = 423;
       float percent = (float) userScore / maxScore * 100.0f;
-      System.out.println("Tu puntaje es: " + percent + "%"); 
+      System.out.println("Tu puntaje es: " + percent + "%");
+      
+      
+      // Operadores en Java
+      // operador de suma
+      int operadorSuma = 10 + 10;
+      System.out.println(operadorSuma);
       
     }
   }
